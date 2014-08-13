@@ -7,5 +7,5 @@ curl -o /etc/apt/sources.list.d/stackdriver.list http://repo.stackdriver.com/whe
   apt-get update &&
   apt-get install -y stackdriver-agent
 
-echo Note that if you dont have the key in the isntall you can do this:
+echo Note that if you dont have the key in the install you can do this:
 echo 'echo "stackdriver-agent stackdriver-agent/apikey string '$MYKEY'" | debconf-set-selections'
